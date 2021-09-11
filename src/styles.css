@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-counter {
+  border: 2px solid purple;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background: lightblue;
+  box-shadow: 10px 15px #888888;
+}
+
+#cw {
+  font-size: 4rem;
+  color: purple;
+}
+
+#counter {
+  font-size: 3rem;
+}
+
+button {
+  margin: 10px;
+  width: 75px;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  outline: 0;
+  border-radius: 10px;
+  height: 75px;
+  cursor: pointer;
+}
+
+button:hover {
+  /* background: black; */
+  opacity: 0.5;
+  transition: 0.8s ease;
+}
+
+.counter-number {
+  font-size: 5rem;
+}
+
+.increase {
+  background: green;
+}
+.decrease {
+  background: red;
+}
+.reset {
+  background: gray;
+}
