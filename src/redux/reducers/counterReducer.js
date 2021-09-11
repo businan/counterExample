@@ -6,7 +6,7 @@ import {
 } from "../types/types";
 
 // import { counterState } from "../initialStates/initialState";
- const counterState = {
+const counterState = {
     counter: 0,
 };
 
